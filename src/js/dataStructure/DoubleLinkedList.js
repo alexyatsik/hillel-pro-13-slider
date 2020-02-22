@@ -10,7 +10,6 @@ function DoubleLinkedList() {
             this.head = node;
             this.head.next = this.head;
             this.head.prev = this.head;
-
             this.current = this.head;
         } else if (this.tail === null) {
             this.tail = node;
